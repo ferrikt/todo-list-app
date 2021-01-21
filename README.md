@@ -1,8 +1,51 @@
-# Getting Started with Create React App
+# Getting Started with To-do list application
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Short description
+
+Small to-do list application with abilities create and manage tasks.
+
+### `Assumptions` 
+ - initially there is 5 tasks
+ 
+ - when task is added, it has priority `normal` by default. User can change task priority anytime
+ 
+ Priorities of task are:
+  [
+  'low',
+  'normal',
+  'high',
+  'critical',
+]
+ 
+### `Implementation` 
+- App is build using React and tasks are stored in parent component state
+
+- Some tests are implemented to check rendering
+
+- Due to short timing app is implimented as simple as possible
+
+### `Improvements can be done` 
+ - redux usage (store state in redux store, which gives an ability to scale and enhance app)
+ 
+ - get data from server
+ 
+ - async actions/thunk middleware
+ 
+ - typescript
+ 
+ - tests for component state/actions etc
+ 
+ ### `Question during implementation` 
+ - view the tasks sorted by priority and name
+ 
+ - I just added buttons for sorting to keep current design, was not sure it also filtering were required. Buttons added to keep simple design (no tables)
+ 
+
+### `Video demo for the app is available` 
+
+
 
 In the project directory, you can run:
 
