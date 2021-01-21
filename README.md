@@ -44,8 +44,7 @@ Small to-do list application with abilities create and manage tasks.
  
 
 ### `Video demo for the app is available` 
-https://github.com/ferrikt/todo-list-app/blob/master/to-do-app-demo.mov
-
+I sent it as email attachment not to grow repo size
 
 In the project directory, you can run:
 
